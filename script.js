@@ -36,14 +36,14 @@ function quotient() {
     answer.innerHTML = answer4;
 }
 
-function exponential() {
-    let firstNumber = parseInt( num1.value);
-    let secondNumber = parseInt(num2.value);
-    const exponential = firstNumber ** secondNumber;
-    let answer5 = "The answer is " + exponential;
-    console.log(exponential);
-    answer.innerHTML = answer5;
-}
+// function exponential() {
+//     let firstNumber = parseInt( num1.value);
+//     let secondNumber = parseInt(num2.value);
+//     const exponential = firstNumber ** secondNumber;
+//     let answer5 = "The answer is " + exponential;
+//     console.log(exponential);
+//     answer.innerHTML = answer5;
+// }
 
 function modulus() {
     let firstNumber = parseInt( num1.value);
