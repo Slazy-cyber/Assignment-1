@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div style="border: 1px solid black; width: 500px;margin: auto; height: 400px;display: flex;
+    flex-direction: column; justify-content: center; align-items: center; background-color:greenyellow;">
+    
+    <h1>Calculator</h1>
+    <input type="number" placeholder="12345" id="num1">
+    <input type="number" placeholder="12345" id="num2"> <br>
+    <button onclick="sum()">Addition</button> 
+    <button onclick="difference()">Subtract</button> 
+    <button onclick="product()">Multiply</button> 
+    <button onclick="quotient()">Divide</button> 
+    <button onclick="exponential()"></button>
+    <button onclick="modulus()">Modulus</button> 
+    <div id="answer">The Answer is</div>
+
+    <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
