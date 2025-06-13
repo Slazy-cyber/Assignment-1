@@ -28,6 +28,7 @@ function product() {
 
 
 function quotient() {
+    
     let firstNumber = parseInt( num1.value);
     let secondNumber = parseInt(num2.value);
     const quotient = firstNumber / secondNumber;
